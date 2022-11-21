@@ -35,7 +35,7 @@ int main(){
         cout << e << " ";
     }
     cout << endl;
-    set<Person, std::greater<>> Set2 = {{30, "John"}, {25, "Karan"}, {21, "Manish"}};
+    set<Person, std::greater<>> Set2 = {{30, "John"}, {25, "Karan"}, {21, "Manish"}, {21, "Manish"}};
     for (const auto& e: Set2){
         cout << e.name << " " << e.age << endl;
     }
